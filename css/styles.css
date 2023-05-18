@@ -46,3 +46,7 @@ body {
   font-size: .7em;
   margin-top: 15px;
 }
+
+.navbar-brand p span {
+  vertical-align: middle;
+}
