@@ -12,13 +12,9 @@ body {
   border: 0;
 }
 
-/********** Large Devices Only **********/
-
-@media (min-width: 1200px) {
+#logo-img {
+  background: url("/images/restaurant-logo_large.png") no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
 }
-
-/********** Medium Devices Only **********/
-
-@media (min-width: 992px) and (max-width: 1199px) {
-}
-
