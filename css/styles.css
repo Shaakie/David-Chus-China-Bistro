@@ -1,0 +1,16 @@
+/* base styles */
+
+* {
+  box-sizing: border-box;
+}
+
+/********** Large Devices Only **********/
+
+@media (min-width: 1200px) {
+}
+
+/********** Medium Devices Only **********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
