@@ -3,7 +3,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
-  font-family: 'oxygen', sans-serif;
+  font-family: "oxygen", sans-serif;
 }
 
 /** HEADER **/
@@ -26,7 +26,7 @@ body {
 
 /* Resturant Name */
 .navbar-brand h1 {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -34,26 +34,29 @@ body {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: 0.75;
 }
 
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover,
+.navbar-brand a:focus {
   text-decoration: none;
 }
 
-.navbar-brand p { /*Kosher cert */
+.navbar-brand p {
+  /*Kosher cert */
   color: #000;
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: 0.7em;
   margin-top: 15px;
 }
 
-.navbar-brand p span { /* Star-K */
+.navbar-brand p span {
+  /* Star-K */
   vertical-align: middle;
 }
 
 #nav-list {
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 #nav-list a {
@@ -73,18 +76,21 @@ margin-top: 10px;
   margin-top: 5px;
 }
 
-#phone a { /* Phone Number */
+#phone a {
+  /* Phone Number */
   text-align: right;
   padding-bottom: 0;
 }
 
-#phone div { /* We Deliver */
+#phone div {
+  /* We Deliver */
   color: #557c3e;
   text-align: right;
   padding-right: 15px;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
 
@@ -96,11 +102,16 @@ margin-top: 10px;
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+  .container .jumbotron {
+    background: url("/images/jumbotron_1200.jpg") no-repeat;
+    height: 675px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width:1199px) {
+@media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
     background: url("/images/restaurant-logo_medium.png") no-repeat;
@@ -109,59 +120,83 @@ margin-top: 10px;
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url("/images/jumbotron_992.jpg") no-repeat;
+    height: 558px;
+    box-shadow: 0 0 5px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
+  /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+  .container .jumbotron {
+    background: url("/images/jumbotron_768.jpg") no-repeat;
+    height: 432px;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
 }
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   /* Header */
-.navbar-brand {
-  padding-top: 10px;
-  height: 80px;
-}
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
 
-.navbar-brand h1 { /* Resturant name */
-  padding-top: 10px;
-  font-size: 5vw; /* 1vw = 1% of viewport width */
-}
+  .navbar-brand h1 {
+    /* Resturant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
 
-.navbar-brand p { /* Kosher cert */
-  font-size: .6em;
-  margin-top: 12px;
-}
+  .navbar-brand p {
+    /* Kosher cert */
+    font-size: 0.6em;
+    margin-top: 12px;
+  }
 
-.navbar-brand p img {
-  height: 20px;
-}
+  .navbar-brand p img {
+    height: 20px;
+  }
 
-#collapsable-nav a {
-  font-size: 1.2em;
-}
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
 
-#collapsable-nav a span {
-  font-size: 1em;
-  margin-right: 5px;
-}
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
 
-#call-btn > a {
-  font-size: 1.5em;
-  display: block;
-  margin: 0 20px;
-  padding: 10px;
-  border: 2px solid #fff;
-  background-color: #f6b319;
-  color: #951c49;
-}
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
 
-#xs-deliver {
-  margin-top: 5px;
-  font-size: .7em;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
   /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+    box-shadow: 0 0 50px #3f0c1f;
+    border: 2px solid #3f0c1f;
+  }
 }
