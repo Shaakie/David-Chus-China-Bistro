@@ -233,7 +233,7 @@ body {
     padding: 0;
   }
 
-  #menu-tiles, #specials-tile {
+  #menu-tile, #specials-tile {
     width: 360px;
     margin: 0px auto 15px auto;
   }
