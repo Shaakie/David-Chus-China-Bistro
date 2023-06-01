@@ -238,3 +238,17 @@ body {
     margin: 0px auto 15px auto;
   }
 }
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 {
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home Page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+}
