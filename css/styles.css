@@ -120,12 +120,12 @@ body {
 }
 
 #menu-tile {
-  background: url(../images/menu-tile.jpg);
+  background: url(../images/menu-tile.jpg) no-repeat;
   background-position: center;
 }
 
 #specials-tile {
-  background: url(../images/specials-tile.jpg);
+  background: url(../images/specials-tile.jpg) no-repeat;
 }
 
 /********** Large devices only **********/
