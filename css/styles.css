@@ -314,6 +314,8 @@ body {
     margin: 0px auto 15px auto;
   }
 }
+
+/********** Super Extra Small Devices Only **********/
 @media (max-width: 479px) {
   /* Header */
   .navbar-brand h1 {
@@ -344,4 +346,13 @@ body {
     width: 50%;
   }
   /* End Footer */
+  /* Extra 12 Grid Responsive */
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
 }
